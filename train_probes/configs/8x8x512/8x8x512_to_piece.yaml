@@ -1,0 +1,38 @@
+# this is only the root output_dir
+output_dir: models/probes 
+
+# Config Arguments:
+state_fn_name: to_piece
+chess_model: austindavis/chess-gpt2-uci-8x8x512
+dataset_repo_id: austindavis/chess-gpt2-hiddenstates-512
+wandb_project: probe_training
+layer: 0
+phase: 0
+
+# # Post-hoc Eval-only settings:
+# do_train: false
+# run_id: x564ogz6
+# pretrain_checkpoint: models/to_piece/layer-0/phase-0/checkpoint-575
+
+# TrainingArguments
+num_train_epochs: 15
+per_device_train_batch_size: 3000
+per_device_eval_batch_size: 8
+weight_decay: 0.01
+save_total_limit: 1
+save_safetensors: true
+overwrite_output_dir: true
+metric_for_best_model: loss
+logging_dir: ./logs
+logging_steps: 25
+evaluation_strategy: steps
+eval_steps: 100
+save_strategy: "no"
+use_cpu: false
+lr_scheduler_type: cosine
+learning_rate: 0.009
+torch_compile: true
+
+# Reporting/publishing
+report_to: wandb
+push_to_hub: false

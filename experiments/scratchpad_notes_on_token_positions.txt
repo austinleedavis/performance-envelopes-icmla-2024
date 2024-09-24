@@ -1,0 +1,8 @@
+in Player:      w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     
+in halfMv:      0     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17    18    19    20
+Pos:         0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+Phase:       5  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3  0  1  2  3
+input:      <> e2 e4 e7 e5 g1 f3 b8 c6 f1 d4 e5 d4 f3 c4 f8 f6 e4 g5 d7 d5 e4 d5 f6 a5 c4 b5 c7 c6 d5 c6 b7 c6 b5 d3 f8 h6 g5 f3 f8 g4 e1 g1 f8 e7 d1 h3 g4 h5 d1 f3 e8 c8 f1 g3 e8 h5 g3 g4 g7 g6 f1 e1 e8 g8 c1 d2 a5 c4 d2 b3 c4'
+output:     e2 e4 e7 e5 g1 f3 b8 c6 f1 d4 e5 d4 f3 c4 f8 f6 e4 g5 d7 d5 e4 d5 f6 a5 c4 b5 c7 c6 d5 c6 b7 c6 b5 d3 f8 h6 g5 f3 f8 g4 e1 g1 f8 e7 d1 h3 g4 h5 d1 f3 e8 c8 f1 g3 e8 h5 g3 g4 g7 g6 f1 e1 e8 g8 c1 d2 a5 c4 d2 b3 c4'
+out Player:  w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     b     w     
+out halfMv:  0     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17    18    19    20
