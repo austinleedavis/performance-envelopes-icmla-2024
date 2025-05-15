@@ -25,9 +25,11 @@ This repository contains the code and probe model tensors for the paper **"Perfo
 
 The GPT model was trained exclusively on tokenized UCI move sequences from 94 million games played on Lichess.org in June 2023. A holdout set of 120,000 games from 2013 was used for evaluation. The model was designed without prior knowledge of chess rules and was trained purely to predict the next token in a sequence. 
 
-The model and training data are hosted on HuggingFace:
+The model and training data are hosted on HuggingFace and as Artifacts on Weights & Biases:
 - 12-layer GPT Model: https://huggingface.co/austindavis/chess-gpt2-uci-12x12x768
 - Lichess UCI dataset: https://huggingface.co/datasets/austindavis/lichess_uci
+- Trained Sparse Autoencoders: https://huggingface.co/austindavis/chess-gpt2-uci-12x12x768-saes
+- Trained Probes: https://wandb.ai/austinleedavis/probe_training_768
 
 ## Probing Classifiers
 
